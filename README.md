@@ -2,7 +2,7 @@
 
 ### Approach
 
-  - First the array of clicks are read from a file _clicks.json_
+  - First the array of clicks is read from a file _clicks.json_
   - The above array of clicks are then stored in a map _clicksPeriodMap_ and the count of each IP is stored in _clicksCountMap_
   - _clicksPeriodMap_ stores clicks in a <key, value> pair where value is a click satisfying the requirements mentioned in the assignment. Key is computed as _<IPAddress>#<Date><Hour>_. This ensures the map has unique click for every hour period while offering constatnt time lookup.
   - finnaly the result is saved in _clicksResult_ which is then written in a file _resultset.json_
