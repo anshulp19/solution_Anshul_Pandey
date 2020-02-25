@@ -1,0 +1,16 @@
+{
+  "name": "solution_anshul_pandey",
+  "version": "1.0.0",
+  "description": "Take home assignment to process clicks.",
+  "main": "index.js",
+  "scripts": {
+    "solution": "NODE_ENV=global node Main.js",
+    "test": "NODE_ENV=global ./node_modules/.bin/mocha 'tests/**/*.js'"
+  },
+  "author": "Anshul Pandey",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1"
+  }
+}
